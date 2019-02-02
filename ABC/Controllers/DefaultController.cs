@@ -11,9 +11,14 @@ namespace ABC.Controllers
         // GET: Default
         public ActionResult Index()
         {
+            //asdasdeasdasd
+
             //slam
 
             return View();
         }
+        public int ID { get; set; }
+        public int MyProperty { get; set; }
+        public decimal price { get; set; }
     }
 }
